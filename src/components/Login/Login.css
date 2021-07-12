@@ -1,0 +1,50 @@
+.fb_login_layout
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgb(40, 40, 41);
+}
+
+.fb_Login_header
+{
+  width:40%;
+  height:20%;
+  background-color: blue;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fb_Login_header_text
+{
+  font-size: 72px;
+  color: white;
+  text-align: center;  
+}
+.fb_btn
+{
+  background-color:white;
+  margin-top: 100px;
+  display: flex;
+  padding: 10px 20px 10px 20px;
+  border-radius: 24px;
+  position: relative;
+  transition: all 0.3s;
+  outline: none;
+  border: none;
+}
+.fb_btn::after
+{
+  content: '';
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s;
+}
+.fb_signin_btn
+{
+  font-weight: bold;
+  padding-left: 10px;
+}
